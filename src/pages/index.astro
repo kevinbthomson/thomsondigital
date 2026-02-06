@@ -17,14 +17,14 @@ import '../styles/index.css';
     <header class="navbar">
       <div class="container">
         <div class="logo">Thomson Digital LLC</div>
-        <nav>
+        <!-- <nav>
           <ul class="nav-links">
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact" class="cta-btn">Get a Quote</a></li>
           </ul>
-        </nav>
+        </nav> -->
       </div>
     </header>
 
@@ -84,11 +84,11 @@ import '../styles/index.css';
     <section id="contact" class="contact">
       <div class="container">
         <h2>Get in Touch</h2>
-        <p>
+        <p class="contact-intro">
           Let’s discuss your project! Fill out the form below, and we’ll get
           back to you shortly.
         </p>
-        <form action="#" method="post" class="contact-form">
+        <form class="contact-form" name="contact" method="POST" data-netlify="true">
           <input type="text" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
           <textarea placeholder="Your Message" rows="5" required></textarea>
