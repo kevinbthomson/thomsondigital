@@ -1,5 +1,6 @@
 ---
 import '../styles/index.css';
+import ContactForm from '../components/ContactForm.astro';
 ---
 
 <html lang="en">
@@ -35,7 +36,7 @@ import '../styles/index.css';
           Empowering entrepreneurs with beautiful, affordable, and
           high-performing websites that convert visitors into customers.
         </p>
-        <a href="#contact" class="primary-btn">Let’s Build Yours</a>
+        <a href="#contact" class="primary-btn">Let's Build Yours</a>
       </div>
     </section>
 
@@ -72,7 +73,7 @@ import '../styles/index.css';
         <div>
           <h2>About Us</h2>
           <p>
-            At Thomson Digital LLC, we’re passionate about helping small
+            At Thomson Digital LLC, we're passionate about helping small
             businesses grow online. Our team combines creativity, technology,
             and strategy to deliver impactful digital experiences that make your
             business stand out.
@@ -88,12 +89,8 @@ import '../styles/index.css';
           Let’s discuss your project! Fill out the form below, and we’ll get
           back to you shortly.
         </p>
-        <form class="contact-form" name="contact" method="POST" data-netlify="true">
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Your Email" required />
-          <textarea placeholder="Your Message" rows="5" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
+        
+				<ContactForm />
       </div>
     </section>
 
