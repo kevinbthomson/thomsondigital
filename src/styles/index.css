@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: var(--background-color);
+  background: var(--primary-color);
   color: var(--text-color);
   font-family: 'Inter', sans-serif;
   font-size: 1.2rem;
